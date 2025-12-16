@@ -1,0 +1,32 @@
+Student ID:6915210
+Student name:Saizal
+UUID:08c781d5-406f-4f39-addb-87869c433a8a
+==========
+Args:Namespace(model_mode='resnet50', dataset_location='/scratch/zs00774/FML_Coursework/EEEM066_KnifeHunter', train_datacsv='dataset/train.csv', val_datacsv='dataset/validation.csv', test_datacsv='dataset/test.csv', saved_checkpoint_path='Knife-resnet50_3_2_16', n_classes=543, num_workers=8, seed=0, resized_img_weight=224, resized_img_height=224, evaluate_only=False, model_path=None, epochs=10, batch_size=16, brightness=0.2, contrast=0.2, saturation=0.2, hue=0.2, random_rotation=0, vertical_flip=0, horizontal_flip=0, random_erase=False, color_aug=False, optim='adam', learning_rate=0.0002, weight_decay=0.0005, momentum=0.9, sgd_dampening=0, sgd_nesterov=False, rmsprop_alpha=0.99, adam_beta1=0.9, adam_beta2=0.999, lr_scheduler='CosineAnnealingLR', stepsize=[20, 40], gamma=0.1)
+==========
+------------------------- [START 2025-12-01_02-19-50] -------------------------
+
+                           |  Train   |   Valid  |              |
+ | Mode  |  Iter  | Epoch  |   Loss   |    mAP   |     Time     |
+-------------------------------------------------------------------------------
+
+| train | 1578.0 |   0.0 |    4.309 |   0.000 |  1 min 01 sec |
+| val   |  27.0 |   0.0 |    4.309 |   0.392 |  1 min 01 sec |
+| train | 1578.0 |   1.0 |    0.590 |   0.392 |  2 min 03 sec |
+| val   |  27.0 |   1.0 |    0.590 |   0.553 |  2 min 04 sec |
+| train | 1578.0 |   2.0 |    0.140 |   0.553 |  3 min 05 sec |
+| val   |  27.0 |   2.0 |    0.140 |   0.522 |  3 min 06 sec |
+| train | 1578.0 |   3.0 |    0.092 |   0.522 |  4 min 08 sec |
+| val   |  27.0 |   3.0 |    0.092 |   0.553 |  4 min 08 sec |
+| train | 1578.0 |   4.0 |    0.078 |   0.553 |  5 min 10 sec |
+| val   |  27.0 |   4.0 |    0.078 |   0.588 |  5 min 11 sec |
+| train | 1578.0 |   5.0 |    0.079 |   0.588 |  6 min 13 sec |
+| val   |  27.0 |   5.0 |    0.079 |   0.532 |  6 min 14 sec |
+| train | 1578.0 |   6.0 |    0.072 |   0.532 |  7 min 16 sec |
+| val   |  27.0 |   6.0 |    0.072 |   0.533 |  7 min 16 sec |
+| train | 1578.0 |   7.0 |    0.070 |   0.533 |  8 min 18 sec |
+| val   |  27.0 |   7.0 |    0.070 |   0.547 |  8 min 19 sec |
+| train | 1578.0 |   8.0 |    0.076 |   0.547 |  9 min 21 sec |
+| val   |  27.0 |   8.0 |    0.076 |   0.473 |  9 min 21 sec |
+| train | 1578.0 |   9.0 |    0.070 |   0.473 | 10 min 23 sec |
+| val   |  27.0 |   9.0 |    0.070 |   0.503 | 10 min 24 sec |

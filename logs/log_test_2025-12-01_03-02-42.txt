@@ -1,0 +1,13 @@
+Student ID:6915210
+Student name:Saizal
+UUID:b69a3720-271b-467b-b15a-ed084d81c991
+==========
+Args:Namespace(model_mode='resnet50', dataset_location='/scratch/zs00774/FML_Coursework/EEEM066_KnifeHunter', train_datacsv='dataset/train.csv', val_datacsv='dataset/validation.csv', test_datacsv='dataset/test.csv', saved_checkpoint_path=None, n_classes=543, num_workers=8, seed=0, resized_img_weight=224, resized_img_height=224, evaluate_only=True, model_path='Knife-resnet50_3_2_4/Knife-resnet50-E10.pth', epochs=10, batch_size=4, brightness=0.2, contrast=0.2, saturation=0.2, hue=0.2, random_rotation=0, vertical_flip=0, horizontal_flip=0, random_erase=False, color_aug=False, optim='adam', learning_rate=0.0003, weight_decay=0.0005, momentum=0.9, sgd_dampening=0, sgd_nesterov=False, rmsprop_alpha=0.99, adam_beta1=0.9, adam_beta2=0.999, lr_scheduler='multi_step', stepsize=[20, 40], gamma=0.1)
+==========
+------------------------- [START 2025-12-01_03-02-42] -------------------------
+
+         |   Test  |              |
+ | Mode  |    mAP   |     Time     |
+-------------------------------------------------------------------------------
+
+| test  |   0.405 |  0 min 00 sec |

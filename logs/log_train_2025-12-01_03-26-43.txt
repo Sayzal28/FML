@@ -1,0 +1,32 @@
+Student ID:6915210
+Student name:Saizal
+UUID:7f7cb55f-98ca-4367-92b2-9eadf166d6df
+==========
+Args:Namespace(model_mode='resnet50', dataset_location='/scratch/zs00774/FML_Coursework/EEEM066_KnifeHunter', train_datacsv='dataset/train.csv', val_datacsv='dataset/validation.csv', test_datacsv='dataset/test.csv', saved_checkpoint_path='Knife-resnet50_3_2_64', n_classes=543, num_workers=8, seed=0, resized_img_weight=224, resized_img_height=224, evaluate_only=False, model_path=None, epochs=10, batch_size=64, brightness=0.2, contrast=0.2, saturation=0.2, hue=0.2, random_rotation=0, vertical_flip=0, horizontal_flip=0, random_erase=False, color_aug=False, optim='adam', learning_rate=0.0002, weight_decay=0.0005, momentum=0.9, sgd_dampening=0, sgd_nesterov=False, rmsprop_alpha=0.99, adam_beta1=0.9, adam_beta2=0.999, lr_scheduler='CosineAnnealingLR', stepsize=[20, 40], gamma=0.1)
+==========
+------------------------- [START 2025-12-01_03-26-43] -------------------------
+
+                           |  Train   |   Valid  |              |
+ | Mode  |  Iter  | Epoch  |   Loss   |    mAP   |     Time     |
+-------------------------------------------------------------------------------
+
+| train | 394.0 |   0.0 |    5.580 |   0.000 |  0 min 47 sec |
+| val   |   6.0 |   0.0 |    5.580 |   0.113 |  0 min 48 sec |
+| train | 394.0 |   1.0 |    2.925 |   0.113 |  1 min 36 sec |
+| val   |   6.0 |   1.0 |    2.925 |   0.343 |  1 min 37 sec |
+| train | 394.0 |   2.0 |    0.736 |   0.343 |  2 min 25 sec |
+| val   |   6.0 |   2.0 |    0.736 |   0.422 |  2 min 25 sec |
+| train | 394.0 |   3.0 |    0.238 |   0.422 |  3 min 14 sec |
+| val   |   6.0 |   3.0 |    0.238 |   0.462 |  3 min 14 sec |
+| train | 394.0 |   4.0 |    0.129 |   0.462 |  4 min 03 sec |
+| val   |   6.0 |   4.0 |    0.129 |   0.465 |  4 min 03 sec |
+| train | 394.0 |   5.0 |    0.095 |   0.465 |  4 min 52 sec |
+| val   |   6.0 |   5.0 |    0.095 |   0.476 |  4 min 52 sec |
+| train | 394.0 |   6.0 |    0.074 |   0.476 |  5 min 41 sec |
+| val   |   6.0 |   6.0 |    0.074 |   0.485 |  5 min 41 sec |
+| train | 394.0 |   7.0 |    0.064 |   0.485 |  6 min 30 sec |
+| val   |   6.0 |   7.0 |    0.064 |   0.486 |  6 min 30 sec |
+| train | 394.0 |   8.0 |    0.055 |   0.486 |  7 min 19 sec |
+| val   |   6.0 |   8.0 |    0.055 |   0.505 |  7 min 19 sec |
+| train | 394.0 |   9.0 |    0.052 |   0.505 |  8 min 08 sec |
+| val   |   6.0 |   9.0 |    0.052 |   0.498 |  8 min 08 sec |
